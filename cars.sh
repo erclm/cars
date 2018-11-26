@@ -19,7 +19,7 @@ while [[ i==0 ]]; do
           d="$a:$b:$c";
           echo "$d" >> my_old_cars;
       ;;
-    "2" ) cat my_old_cars;
+    "2" ) sort my_old_cars;
       ;;
     "Q" ) echo "Goodbye";
           break;
