@@ -21,7 +21,8 @@ while [[ i==0 ]]; do
       ;;
     "2" ) cat my_old_cars;
       ;;
-    "Q" ) break;
+    "Q" ) echo "Goodbye";
+          break;
       ;;
     * ) echo "Illegal Input"
       ;;
